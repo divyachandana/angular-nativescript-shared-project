@@ -1,3 +1,24 @@
+#commands
+npm i -g @nativescript/schematics
+ng new --collection=@nativescript/schematics sharedproj --shared
+
+tns run ios --bundle
+tns run android --bundle
+ng serve
+
+if you got to update any tns modules use
+tns info
+
+sudo npm i -g nativescript@next
+sudo npm i -g tns-core-modules@next
+sudo npm i -g tns-android@next
+sudo npm i -g tns-ios@next
+
+#References
+https://docs.nativescript.org/angular/code-sharing/creating-a-new-project
+
+https://www.nativescript.org/nativescript-is-how-you-build-native-mobile-apps-with-angular/code-sharing-angular-and-nativescript
+
 # sharedproj
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.0.
