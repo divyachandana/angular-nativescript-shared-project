@@ -1,7 +1,13 @@
 {
   "name": "sharedproj",
   "nativescript": {
-    "id": "org.nativescript.sharedproj"
+    "id": "org.nativescript.sharedproj",
+    "tns-android": {
+      "version": "4.2.0"
+    },
+    "tns-ios": {
+      "version": "4.2.0"
+    }
   },
   "version": "0.0.0",
   "scripts": {
