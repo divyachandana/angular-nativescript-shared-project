@@ -1,9 +1,12 @@
 # commands
 npm i -g @nativescript/schematics
+
 ng new --collection=@nativescript/schematics sharedproj --shared
 
 tns run ios --bundle
+
 tns run android --bundle
+
 ng serve
 
 if you got to update any tns modules use
